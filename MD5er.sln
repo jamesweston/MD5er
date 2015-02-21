@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5er Server", "MD5er Server\MD5er Server.csproj", "{4D463F43-8218-468E-84F7-8E3A66DBBAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5er Client", "MD5er Client\MD5er Client.csproj", "{ADD0DB49-1938-48C2-96C8-D481B5901321}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D463F43-8218-468E-84F7-8E3A66DBBAB6} = {4D463F43-8218-468E-84F7-8E3A66DBBAB6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D463F43-8218-468E-84F7-8E3A66DBBAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D463F43-8218-468E-84F7-8E3A66DBBAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D463F43-8218-468E-84F7-8E3A66DBBAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D463F43-8218-468E-84F7-8E3A66DBBAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD0DB49-1938-48C2-96C8-D481B5901321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD0DB49-1938-48C2-96C8-D481B5901321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD0DB49-1938-48C2-96C8-D481B5901321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD0DB49-1938-48C2-96C8-D481B5901321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
